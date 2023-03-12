@@ -11,7 +11,7 @@ function searchFunc() {
       for(i = 0; i < data.length; i++) {
         let object = data[i];
 
-        if (object.heading.toLowerCase().includes(input) || object.event.toLowerCase().includes(input)) {
+        if (object.filter.toLowerCase().includes(input)) {
           const elem = document.createElement("div");
 
           elem.innerHTML = `
