@@ -25,6 +25,8 @@ const renderResult = async () => {
     `
 
     container.innerHTML = template;
+
+    console.log(object);
 }
 
 window.addEventListener("DOMContentLoaded", () => renderResult());
