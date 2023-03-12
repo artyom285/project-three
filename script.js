@@ -20,7 +20,7 @@ function searchFunc() {
                 <div class="result-banner">
                   <img src="${object.poster}" alt="poster"></img>
                 </div>
-                <p>${object.event}: ${object.heading}</p>
+                <p>${object.filter}</p>
               </div>
             </a>
           `
