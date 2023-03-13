@@ -11,7 +11,7 @@ function searchFunc() {
       for(i = 0; i < data.length; i++) {
         let object = data[i];
 
-        if (object.event.toLowerCase().includes(input) || object.heading.toLowerCase().includes(input)) {
+        if (object.filter.toLowerCase().includes(input)) {
           const elem = document.createElement("div");
 
           elem.innerHTML = `
@@ -20,7 +20,7 @@ function searchFunc() {
                 <div class="result-banner">
                   <img src="${object.poster}" alt="poster"></img>
                 </div>
-                <p>${object.event}: ${object.heading}</p>
+                <p>${object.filter}</p>
               </div>
             </a>
           `
