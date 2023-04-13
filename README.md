@@ -14,4 +14,6 @@ UFC Fight Night: Ortega vs. The Korean Zombie;
 UFC Fight Night: Font vs. Garbrandt; 
 UFC Fight Night: Ya vs. Dvalishvilin; 
 
-Some Youtube links are not included in the objects since these events are not yet happened during that time when this project was created
+Some Youtube links are not included in the objects since these events are not yet happened during that time when this project was created;
+
+If you use Live Server and the result doesn't show up at thr first time, please reload the page...
